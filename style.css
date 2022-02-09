@@ -10,6 +10,7 @@ h1 {
   color: #373fff;
 }
 
-img{
-  width
+img {
+  width: 50%;
+  max-width: 300px;
 }
