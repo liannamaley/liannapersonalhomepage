@@ -1,14 +1,14 @@
 /* CSS files add styling rules to your content */
 
 body {
-  background: #F8F4D4;
+  background: #f8f4d4;
   font-family: helvetica, arial, sans-serif;
   margin: 2em;
 }
 
 h1 {
   font-style: bold;
-  color: #D4D8F8;
+  color: #d4d8f8;
 }
 
 img {
