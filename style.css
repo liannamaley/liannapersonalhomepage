@@ -9,8 +9,11 @@ body {
 }
 
 h1 {
+  text-align: center;
   font-style: bold;
   color: #d4d8f8;
+  
+  
 }
 
 img {
@@ -34,4 +37,7 @@ p {
   color: #caa1fc;
 }
 
-a {style="color: green;"}
+text-align: right;
+  font-size: 
+
+a {color: #428C8C;}
