@@ -1,6 +1,8 @@
 /* CSS files add styling rules to your content */
 
 body {
+  outline: 9px dotted rgba(66, 66, 140);
+outline-offset: 15px;
   background: #f8f4d4;
   font-family: helvetica, arial, sans-serif;
   margin: 2em;
@@ -22,4 +24,8 @@ nav {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+}
+
+p {
+  color: #caa1fc;
 }
