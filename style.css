@@ -12,8 +12,7 @@ h1 {
   text-align: center;
   font-style: bold;
   color: #d4d8f8;
-  
-  
+  font-variant: small-caps;
 }
 
 img {
@@ -29,22 +28,23 @@ nav {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  
-  
 }
 
-p { 
+p {
   color: #caa1fc;
 }
-#copyright{
+#copyright {
   font-size: 12px;
 }
 
+a {
+  color: #428c8c;
+}
 
-a {color: #428C8C;}
-
-
-
-
-
-
+button {
+  color: #063970;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: -0.4px;
+  
+}
