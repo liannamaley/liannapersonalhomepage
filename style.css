@@ -8,10 +8,11 @@ body {
   margin: 2em;
 }
 
+
 h1 {
   text-align: center;
   font-style: bold;
-  color: #d4d8f8;
+  color: #6373ff;
   font-variant: small-caps;
 }
 
@@ -19,6 +20,7 @@ img {
   width: 100%;
   max-width: 800px;
 }
+
 
 nav {
   outline: 3px ridge rgba(90, 154, 154);
@@ -31,7 +33,7 @@ nav {
 }
 
 p {
-  color: #caa1fc;
+  color: #99a4ff;
 }
 #copyright {
   font-size: 12px;
@@ -44,7 +46,8 @@ a {
 button {
   color: #063970;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 700;
+  font-variant: small-caps;
   letter-spacing: -0.4px;
   
 }
