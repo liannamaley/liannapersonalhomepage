@@ -49,8 +49,8 @@ button {
   font-weight: 700;
   font-variant: small-caps;
   letter-spacing: -0.2px;
-  border: 5px dotted rgba(90, 154, 154);
-
+  border: 5px dotted #1C6EA4;
+  color: rgba(90, 154, 154)
   
   
 }
