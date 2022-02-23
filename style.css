@@ -25,6 +25,7 @@ img {
   width: 100%;
   max-width: 800px;
 
+
 }
 
 nav {
@@ -37,7 +38,8 @@ nav {
 }
 
 p {
-  color: #90439F;
+  text-align: center;
+   color: #90439F;
 }
 #copyright {
   font-size: 12px;
@@ -48,14 +50,15 @@ a {
 }
 
 button {
+  line-height: 18px; padding: 30px; border-radius: 50px;
   color: #063970;
 font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
+  font-size: 40px;
   font-weight: 900;
   letter-spacing: -0.2px;
   color: rgba(90, 154, 154);
-  outline: 6px dotted #1c6ea4;
-outline-offset: 3px;
+border: 10px dotted #1C6EA4;
+
   
 }
 button:focus{color:#90439F;
