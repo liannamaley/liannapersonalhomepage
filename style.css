@@ -4,7 +4,9 @@ body {
 
   outline: 4px dotted rgba(184, 212, 212);
   outline-offset: 18px;
-  background: #f8f4d4;
+  background: url("https://cdn.glitch.global/ec5df96a-2840-45eb-b5b4-278163b71efd/background%20photo%20design-01.png?v=1645578379697");
+  background-size:cover;
+  background-attachment:fixed;
   font-family: helvetica, arial, sans-serif;
   margin: 2em;
   font-family: 'Montserrat', sans-serif;
@@ -29,8 +31,9 @@ nav {
   margin-bottom: 35px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+
 }
 
 p {
@@ -53,5 +56,8 @@ font-family: 'Montserrat', sans-serif;
   color: rgba(90, 154, 154);
   outline: 6px dotted #1c6ea4;
 outline-offset: 3px;
+  
+}
+button:focus{color:#90439F;
   
 }
