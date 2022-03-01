@@ -1,31 +1,27 @@
 /* CSS files add styling rules to your content */
 
 body {
-
   outline: 4px dotted rgba(184, 212, 212);
   outline-offset: 18px;
   background: url("https://cdn.glitch.global/ec5df96a-2840-45eb-b5b4-278163b71efd/background%20photo%20design-01.png?v=1645578379697");
-  background-size:cover;
-  background-attachment:fixed;
+  background-size: cover;
+  background-attachment: fixed;
   font-family: helvetica, arial, sans-serif;
   margin: 2em;
-  font-family: 'Montserrat', sans-serif;
-  
+  font-family: "Montserrat", sans-serif;
 }
 
 h1 {
   text-align: center;
-  font-size: 60px;
-  color: #90439F;
-  font-family: 'Shizuru', cursive;
+  font-size: 100px;
+  color: #90439f;
+  font-family: "Shizuru", cursive;
   word-spacing: -40px;
 }
 
 img {
   width: 100%;
   max-width: 800px;
-
-
 }
 
 nav {
@@ -34,12 +30,11 @@ nav {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-
 }
 
 p {
   text-align: center;
-   color: #90439F;
+  color: #90439f;
 }
 #copyright {
   font-size: 12px;
@@ -50,17 +45,17 @@ a {
 }
 
 button {
-  line-height: 18px; padding: 30px; border-radius: 50px;
+  line-height: 18px;
+  padding: 30px;
+  border-radius: 50px;
   color: #063970;
-font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 40px;
   font-weight: 900;
   letter-spacing: -0.2px;
   color: rgba(90, 154, 154);
-border: 10px dotted #1C6EA4;
-
-  
+  border: 10px dotted #1c6ea4;
 }
-button:focus{color:#90439F;
-  
+button:focus {
+  color: #90439f;
 }
