@@ -24,12 +24,15 @@ h2 {
   padding-bottom: 30px;
 }
 
+.🐦 { align-items: center;
+  max-width: 300px;
+}
+
 img {
   align-items: center;
   width: 100%;
   max-width: 800px;
-  }
-
+}
 
 nav,
 main {
