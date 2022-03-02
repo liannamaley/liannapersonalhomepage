@@ -7,7 +7,7 @@ body {
   background-size: cover;
   background-attachment: fixed;
   font-family: helvetica, arial, sans-serif;
-  margin: 2em;
+  margin: 35px;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -19,9 +19,9 @@ h1 {
   word-spacing: -40px;
 }
 
-h2 {font-size: 35px;
-padding-top: -10px;
-padding-bottom: 30px;
+h2 {
+  font-size: 35px;
+  padding-bottom: 30px;
 }
 
 img {
@@ -29,8 +29,9 @@ img {
   max-width: 800px;
 }
 
-nav, main {
-  margin-bottom: 35px;
+nav,
+main {
+  margin: 35px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -53,8 +54,8 @@ button {
   line-height: 18px;
   padding: 30px;
   border-radius: 50px;
-  color: #063970;
-  background: #ffc9fd;
+  color: #ffe8fd;
+  background: #50d627;
   font-family: "Montserrat", sans-serif;
   font-size: 40px;
   font-weight: 900;
@@ -67,8 +68,11 @@ button:focus {
   color: green;
 }
 
-button: focus {outline:6px var(--red) dashed;}
+button: focus {
+  outline: 6px var(--red) dashed;
+}
 
-button:hover{background: var(--red); color:blue;}
-
-
+button:hover {
+  background: var(--red);
+  color: blue;
+}
