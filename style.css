@@ -29,7 +29,7 @@ img {
   max-width: 800px;
 }
 
-nav {
+nav, main {
   margin-bottom: 35px;
   display: flex;
   flex-direction: row;
@@ -54,15 +54,21 @@ button {
   padding: 30px;
   border-radius: 50px;
   color: #063970;
+  background: #ffc9fd;
   font-family: "Montserrat", sans-serif;
   font-size: 40px;
   font-weight: 900;
   letter-spacing: -0.2px;
   color: #323585;
   border: 10px dotted #1c6ea4;
+  transition: all 0.4s ease;
 }
 button:focus {
-  color: #90439f;
+  color: green;
 }
 
-cursor{ cursor:nw-resize;}
+button: focus {outline:6px var(--red) dashed;}
+
+button:hover{background: var(--red); color:blue;}
+
+
