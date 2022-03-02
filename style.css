@@ -25,9 +25,11 @@ h2 {
 }
 
 img {
+  align-items: center;
   width: 100%;
   max-width: 800px;
-}
+  }
+
 
 nav,
 main {
@@ -55,7 +57,7 @@ button {
   padding: 30px;
   border-radius: 50px;
   color: #ffe8fd;
-  background: #50d627;
+  background: #ffe6b5;
   font-family: "Montserrat", sans-serif;
   font-size: 40px;
   font-weight: 900;
@@ -65,7 +67,7 @@ button {
   transition: all 0.4s ease;
 }
 button:focus {
-  color: green;
+  color: #00759c;
 }
 
 button: focus {
