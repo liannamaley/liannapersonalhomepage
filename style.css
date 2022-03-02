@@ -19,6 +19,10 @@ h1 {
   word-spacing: -40px;
 }
 
+h2 {font-size: 35px;
+padding-top: -10px;
+padding-bottom: 30px;
+}
 
 img {
   width: 100%;
@@ -61,4 +65,4 @@ button:focus {
   color: #90439f;
 }
 
-cursor: nw-resize;
+cursor{ cursor:nw-resize;}
