@@ -1,8 +1,6 @@
 /* CSS files add styling rules to your content */
 
 body {
-  outline: 4px dotted rgba(184, 212, 212);
-  outline-offset: 18px;
   background: url("https://cdn.glitch.global/ec5df96a-2840-45eb-b5b4-278163b71efd/background%20photo%20design-01.png?v=1645578379697");
   background-size: cover;
   background-attachment: fixed;
@@ -24,7 +22,8 @@ h2 {
   padding-bottom: 30px;
 }
 
-.🐦 { align-items: center;
+.🐦 {
+  align-items: center;
   max-width: 300px;
 }
 
