@@ -1,82 +1,163 @@
-/* CSS files add styling rules to your content */
-
+/* navigation */
 body {
-  background: url("https://cdn.glitch.global/ec5df96a-2840-45eb-b5b4-278163b71efd/background%20photo%20design-01.png?v=1645578379697");
-  background-size: cover;
+  font-family: "Zen Loop", cursive;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 37px;
+  color: #000000;
+  background-image: url("https://cdn.glitch.global/f907003f-ab9f-4b49-b4d6-25a2db2b07b5/Artboard%201.svg?v=1651625880520");
+  background-size: auto 120vh;
+  background-repeat: no-repeat;
   background-attachment: fixed;
-  font-family: helvetica, arial, sans-serif;
-  margin: 35px;
-  font-family: "Montserrat", sans-serif;
+
+  .😜😜 {
+    position: absolute;
+    max-width: 50px;
+    margin-top: -250px;
+    margin-right: 125px;
+    margin-bottom: 308px;
+    margin-left: 170px;
+  }
+  . ✉️✉️ {
+    position: absolute;
+    max-width: 50px;
+    margin-top: -100px;
+    margin-right: 125px;
+    margin-bottom: 200px;
+    margin-left: 170px;
+  }
 }
 
 h1 {
-  text-align: center;
-  font-size: 100px;
-  color: #90439f;
-  font-family: "Shizuru", cursive;
-  word-spacing: -40px;
-}
-
-h2 {
-  font-size: 35px;
-  padding-bottom: 30px;
-}
-
-.🐦 {
-  align-items: center;
-  max-width: 300px;
-}
-
-img {
-  align-items: center;
-  width: 100%;
-  max-width: 800px;
-}
-
-nav,
-main {
-  margin: 35px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
+  font-size: 32px;
+  margin-top: 85px;
+  margin-right: 163px;
+  margin-left: 75px;
 }
 
 p {
-  text-align: center;
-  color: #90439f;
-}
-#copyright {
-  font-size: 12px;
+  font-size: 20px;
+  margin-right: 80px;
+  margin-left: 75px;
 }
 
-a {
-  color: #428c8c;
+.🎨 {
+  position: absolute;
+  max-width: 200px;
+  margin-top: 90px;
+  margin-right: 86px;
+  margin-bottom: 527px;
+  margin-left: 104px;
+}
+
+.galleryBUTTON {
+  position: absolute;
+  margin-top: 250px;
+  margin-right: 159px;
+  margin-bottom: 495px;
+  margin-left: 135px;
+}
+
+.😜 {
+  position: absolute;
+  max-width: 100px;
+  margin-top: 330px;
+  margin-right: 125px;
+  margin-bottom: 308px;
+  margin-left: 143px;
+}
+
+.aboutmeBUTTON {
+  position: absolute;
+  margin-top: 500px;
+  margin-right: 116.99px;
+  margin-bottom: 276px;
+  margin-left: 135px;
+}
+
+.✉️ {
+  position: absolute;
+  max-width: 100px;
+  margin-top: 589px;
+  margin-right: 80px;
+  margin-bottom: 135px;
+  margin-left: 150px;
+}
+
+.contactmeBUTTON {
+  position: absolute;
+  max-width: 200px;
+  margin-top: 665px;
+  margin-right: 104.99px;
+  margin-bottom: 102px;
+  margin-left: 135px;
+}
+
+img {
+  max-width: 175px;
+  margin-right: 104.99px;
+  margin-left: 135.99px;
+}
+
+/*
+./* PAGE SPECIIFIC STYLES */
+/*
+/*things that apply to only specific pages*/
+
+/* home page */
+
+/* about page */
+
+/* contact me page */
+
+/* gallery */
+
+.flex-test {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* media queries for the site go here */
+
+@media (min-width: 800px) {
+  .flex-test {
+    flex-direction: row;
+    align-content: flex-start;
+  }
+}
+
+footer {
+  font-size: 12px;
+  position: absolute;
+  max-width: 400px;
+  margin-top: 800px;
+  margin-bottom: 527px;
 }
 
 button {
-  line-height: 18px;
-  padding: 30px;
-  border-radius: 50px;
-  color: #ffe8fd;
-  background: #ffe6b5;
-  font-family: "Montserrat", sans-serif;
-  font-size: 40px;
-  font-weight: 900;
-  letter-spacing: -0.2px;
-  color: #323585;
-  border: 10px dotted #1c6ea4;
-  transition: all 0.4s ease;
+  background-color: transparent;
+  border-radius: 17px;
+  border: 5px solid #68cc37;
+  display: inline-block;
+  cursor: pointer;
+  color: #000000;
+  font-family: "Zen Loop", cursive;
+  font-size: 16px;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0px 0px 0px #2f6627;
 }
-button:focus {
-  color: #00759c;
-}
-
-button: focus {
-  outline: 6px var(--red) dashed;
-}
-
 button:hover {
-  background: var(--red);
-  color: blue;
+  background-color: #68cc37;
+}
+button:active {
+  position: relative;
+  top: 1px;
+}
+
+.emails {
+  margin-top: 716px;
+  margin-right: 104.99px;
+  margin-left: 135px;
 }
